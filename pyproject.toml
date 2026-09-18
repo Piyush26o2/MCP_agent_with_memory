@@ -1,0 +1,16 @@
+[project]
+name = "agent-with-mcp-memory"
+version = "0.1.0"
+description = "CrewAI agent with MCP web search + Graphiti memory, powered by NVIDIA NIM"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "crewai>=0.134.0",
+    "crewai-tools[mcp]>=0.38.1",
+    "linkup-sdk>=0.2.7",
+    "mcp[cli]>=1.10.1",
+    "python-dotenv>=1.0.0",
+    "graphiti-core>=0.21.0",
+    "neo4j>=5.25.0",
+    "opik>=1.7.42",
+]

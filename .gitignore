@@ -1,0 +1,43 @@
+# --- secrets ---
+.env
+*.pem
+*.key
+
+# --- python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.uv/
+
+# --- debug / scratch files from local testing ---
+_*.py
+_*.ps1
+_*.txt
+_*.log
+_*.out
+_kick*.txt
+*.err.log
+*.out.log
+agent_run*.txt
+agent_run*.log
+memory_smoke.txt
+linkup_smoke.txt
+nvidia_smoke.txt
+api_check.txt
+*_smoke.txt
+linkup_server*.log
+memory_server*.log
+neo4j.log
+compose.err
+compose.out
+docker_status.txt
+uv_sync*.log
+nvidia_models.txt
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
