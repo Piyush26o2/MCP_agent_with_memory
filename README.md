@@ -1,9 +1,5 @@
 # Agent with MCP Memory — NVIDIA NIM edition
 
-A port of [patchy631/ai-engineering-hub `agent-with-mcp-memory`](https://github.com/patchy631/ai-engineering-hub/tree/main/agent-with-mcp-memory)
-with **all LLM calls routed to NVIDIA NIM** (`NVIDIA_API_KEY`) instead of Ollama —
-and **no OpenAI key anywhere**.
-
 ## Tech stack
 
 - **CrewAI** — the 3-agent crew (Web Search → Memory Manager → Response Generator)
